@@ -1,0 +1,63 @@
+/* src/index.css */
+
+/**
+ * Global Stylesheet
+ * 
+ * This file applies global CSS resets and base styles for the entire React application,
+ * as recommended in the assignment PDF and by best practices for React projects[2][3][10].
+ * 
+ * - Sets up a clean, modern look
+ * - Ensures consistent font and background
+ * - Provides a base for all other component styles
+ * - Designed to work with App.css and component-level CSS
+ */
+
+/* CSS Reset and base styles */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #222;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default outline for mouse users, keep for keyboard navigation */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Make images and media responsive by default */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Box-sizing for all elements */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default list styles */
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Remove default anchor styles */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
