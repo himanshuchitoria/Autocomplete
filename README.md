@@ -58,8 +58,7 @@ A FastAPI backend for product autocomplete, designed for scalable, real-time pro
     - Returns meaningful HTTP status codes and messages.
 - **Modularity:**  
     - Code is split into models, routes, services, and utils for clarity and maintainability.
-- **Bonus:**  
-    - Pydantic models, test coverage, Dockerfile, and CORS for frontend integration.
+
 
 ---
 
