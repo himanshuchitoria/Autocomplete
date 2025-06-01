@@ -203,12 +203,11 @@ The UI is responsive, debounced, paginated, and provides a seamless user experie
 
 - **UI/UX:**  
   - Clean, minimal, and responsive design.
-  - Accessible keyboard navigation and screen reader support.
   - Modular CSS for easy customization.
 
 - **Tech Stack:**  
   - React (with Hooks)
-  - TypeScript for type safety (optional, but used here)
+  - TypeScript for type safety 
   - No external UI libraries—pure React and CSS for full control
 
 ---
