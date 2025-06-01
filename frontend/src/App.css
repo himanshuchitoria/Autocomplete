@@ -1,0 +1,65 @@
+/* src/App.css */
+
+/* Set up a soft background and use a modern font */
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  background: linear-gradient(135deg, #e3f0ff 0%, #f9fcff 100%);
+  color: #222;
+}
+
+/* Center everything in the viewport */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Center headings and description */
+h1, .app-description {
+  text-align: center;
+  margin: 0 0 18px 0;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1976d2;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+
+.app-description {
+  font-size: 1.08rem;
+  color: #444;
+  margin-bottom: 24px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.app-subtitle {
+  font-size: .7rem;
+  display: grid;
+  align-items: end;
+  color: #444;
+  margin-bottom: 24px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+/* Responsive for mobile */
+@media (max-width: 500px) {
+  .app-container {
+    padding: 0 3vw;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+  .app-description {
+    font-size: 1rem;
+  }
+}
