@@ -121,23 +121,7 @@ Interactive docs are available at:
 
 ---
 
-## 🧩 Project Structure
 
-backend/
-├── src/
-│ ├── app.py
-│ ├── models/
-│ ├── routes/
-│ ├── services/
-│ ├── utils/
-│ └── data/products.json
-├── tests/
-├── requirements.txt
-├── Dockerfile
-├── README.md
-└── design_doc.md
-
-text
 
 ---
 
