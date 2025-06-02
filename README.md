@@ -135,10 +135,10 @@ Interactive docs are available at:
 
 ## 📄 References
 
-- [Backend Engineer Assignment II PDF][assignment-pdf]
 - [DummyJSON Products API](https://dummyjson.com/docs/products)
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)
 
+---
 
 # Product Autocomplete Frontend
 
@@ -266,10 +266,6 @@ text
 
 ## 📄 References
 
-- [Software Engineering Intern Assignment - Autocomplete Component PDF][frontend-pdf]
-- [Backend Engineer Assignment II PDF][backend-pdf]
 - [DummyJSON Products API](https://dummyjson.com/docs/products)
 - [React Documentation](https://react.dev/)
 
-[frontend-pdf]: https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/51126410/854d7e2e-348a-4b3c-a168-0e36f9abaca3/Software-Engineering-Intern-Assignment_-Autocomplete-Component.pdf
-[backend-pdf]: https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/51126410/44c49e84-6387-4072-885e-461cc4b8405c/Backend-Engineer-Assignment-II.pdf
